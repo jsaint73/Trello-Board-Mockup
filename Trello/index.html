@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello City</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Task Board</h1>
+    </header>
+    <button id="addColumn"> Add Column</button>
+    <div id="addTaskModal" class="modal"> 
+        <div class="modal-content">
+             <span class="close">&times;</span>
+             <h2>Add/Edit Task</h2>
+             <input type="text" id="taskInput" placeholder="Enter task">
+             <button id="saveTask">Save Task</button>
+        </div>
+    </div>
+    <div class="board" id="board">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p>&copy; 2024 Trello City</p>
+</footer>
+</html>
